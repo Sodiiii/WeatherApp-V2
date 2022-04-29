@@ -15,7 +15,7 @@ export const ThemeProvider = ({ children, ...props }: Props) => {
       setTheme(theme);
       changeCssRootVariables(theme);
     }
-
+ 
     return (
       <ThemeContext.Provider
         value={{
